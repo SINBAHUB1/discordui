@@ -115,7 +115,7 @@ function DiscordLib:Window(text)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = Discord
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(56, 57, 57 )
+	MainFrame.BackgroundColor3 = Color3.fromRGB(1, 1, 1 )
 	MainFrame.BorderSizePixel = 0
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -759,7 +759,7 @@ function DiscordLib:Window(text)
 
 		UnderBar.Name = "UnderBar"
 		UnderBar.Parent = AvatarChange
-		UnderBar.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		UnderBar.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
 		UnderBar.Position = UDim2.new(-0.000297061284, 0, 0.945048928, 0)
 		UnderBar.Size = UDim2.new(0, 346, 0, 13)
 
@@ -769,7 +769,7 @@ function DiscordLib:Window(text)
 
 		UnderBarFrame.Name = "UnderBarFrame"
 		UnderBarFrame.Parent = UnderBar
-		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
+		UnderBarFrame.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
 		UnderBarFrame.BorderSizePixel = 0
 		UnderBarFrame.Position = UDim2.new(-0.000297061284, 0, -2.53846145, 0)
 		UnderBarFrame.Size = UDim2.new(0, 346, 0, 39)
